@@ -32,6 +32,7 @@ The account lockout settings were:
 - Reset account lockout counter after: 10 minutes
 
 This helped me understand when an account would become locked and how long the lockout would last.
+![Account Lockout Policy](Screenshots/01-Account-Lockout-Policy.png)
 
 ### 2. Reproduced the Issue
 
@@ -42,6 +43,7 @@ Windows displayed the message:
 "Invalid credentials, delaying next attempt..."
 
 This showed that Windows was delaying additional login attempts after incorrect credentials were entered.
+![Failed Login Attempt](Screenshots/02-Failed-Login-Attempt.png)
 
 ### 3. Investigated the Account in Active Directory
 
@@ -52,6 +54,7 @@ I opened the account properties and selected the Account tab.
 Active Directory displayed a message confirming that the account was currently locked out on the domain controller.
 
 This confirmed that an account lockout was preventing the user from signing in.
+![Account Lockout Confirmed](Screenshots/03-Account-Lockout-Confirmed.png)
 
 ### 4. Resolved the Issue
 
@@ -64,6 +67,7 @@ This cleared the account lockout.
 Returned to PC01 and attempted to sign in using Daniel Martinez's correct credentials.
 
 The login was successful, confirming that access had been restored.
+![Successful Login](Screenshots/04-Successful-Login.png)
 
 ## Root Cause
 
