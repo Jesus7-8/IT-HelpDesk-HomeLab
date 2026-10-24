@@ -18,3 +18,11 @@ Simulated an employee account lockout, investigated the issue using Active Direc
 Created a new employee account in Active Directory, assigned the appropriate Sales security group, troubleshot DNS name resolution, and verified access to a shared network folder.
 
 **Skills:** Active Directory, user provisioning, security groups, DNS troubleshooting, shared-folder permissions, Windows 11.
+
+### [Ticket HD-003: Shared Folder Permission Troubleshooting](03-Shared-Folder-Permissions/README.md)
+
+**Status:** Resolved
+
+Investigated an employee's inability to modify files in a shared network folder. Identified restricted NTFS permissions, restored Modify access through the Sales security group, and verified successful file creation and modification.
+
+**Skills:** NTFS permissions, Active Directory security groups, network shares, least privilege, access troubleshooting.
