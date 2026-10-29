@@ -26,3 +26,12 @@ Created a new employee account in Active Directory, assigned the appropriate Sal
 Investigated an employee's inability to modify files in a shared network folder. Identified restricted NTFS permissions, restored Modify access through the Sales security group, and verified successful file creation and modification.
 
 **Skills:** NTFS permissions, Active Directory security groups, network shares, least privilege, access troubleshooting.
+
+
+### [Ticket HD-004: DNS Resolution Troubleshooting](04-DNS-Troubleshooting/README.md)
+
+**Status:** Resolved
+
+Simulated a DNS misconfiguration that prevented a Windows 11 workstation from resolving the domain controller's hostname. Used ping, nslookup, and ipconfig to diagnose the issue, corrected the DNS server address, and verified successful hostname resolution.
+
+**Skills:** DNS troubleshooting, TCP/IP networking, Windows network configuration, Command Prompt, connectivity testing.
