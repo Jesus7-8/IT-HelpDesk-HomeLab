@@ -59,3 +59,12 @@ Simulated a DNS misconfiguration that prevented a Windows 11 workstation from re
 Simulated a slow Windows 11 computer by increasing browser resource usage. Used Task Manager to investigate CPU, memory, and disk activity, identified Microsoft Edge consuming 97.5% CPU, and restored performance by closing unnecessary browser workloads.
 
 **Skills:** Windows 11 troubleshooting, Task Manager, CPU and RAM monitoring, process analysis, performance optimization, end-user support.
+
+
+### [Ticket HD-006: DHCP Configuration and Troubleshooting](06-DHCP-Troubleshooting/README.md)
+
+**Status:** Resolved
+
+Installed and authorized a Windows DHCP server, configured an IPv4 scope, and verified automatic IP assignment to a Windows 11 workstation. Simulated a DHCP service outage, diagnosed a failed lease renewal and APIPA address, and restored the service to successfully renew the workstation's IP configuration.
+
+**Skills:** Windows Server DHCP, IPv4 addressing, DHCP scopes, IP leases, APIPA troubleshooting, network configuration, service management.
