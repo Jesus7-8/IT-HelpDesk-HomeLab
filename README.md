@@ -35,3 +35,12 @@ Investigated an employee's inability to modify files in a shared network folder.
 Simulated a DNS misconfiguration that prevented a Windows 11 workstation from resolving the domain controller's hostname. Used ping, nslookup, and ipconfig to diagnose the issue, corrected the DNS server address, and verified successful hostname resolution.
 
 **Skills:** DNS troubleshooting, TCP/IP networking, Windows network configuration, Command Prompt, connectivity testing.
+
+
+### [Ticket HD-005: Windows Performance Troubleshooting](05-Windows-Performance-Troubleshooting/README.md)
+
+**Status:** Resolved
+
+Simulated a slow Windows 11 computer by increasing browser resource usage. Used Task Manager to investigate CPU, memory, and disk activity, identified Microsoft Edge consuming 97.5% CPU, and restored performance by closing unnecessary browser workloads.
+
+**Skills:** Windows 11 troubleshooting, Task Manager, CPU and RAM monitoring, process analysis, performance optimization, end-user support.
