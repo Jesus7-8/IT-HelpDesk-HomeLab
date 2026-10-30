@@ -1,6 +1,21 @@
 # IT-HelpDesk-HomeLab
 Hands-on IT Help Desk troubleshooting projects using Windows Server, Active Directory, Windows 11, and VirtualBox.
 
+
+## Home Lab Environment
+
+I built and configured a virtual IT environment using Oracle VirtualBox to practice real-world Help Desk and system administration tasks.
+
+- **DC01:** Windows Server configured with Active Directory Domain Services and DNS.
+- **PC01:** Windows 11 Pro workstation joined to the aguilartech.local domain.
+- **Networking:** Configured virtual network adapters, static IP addressing, and DNS settings to enable communication between both machines.
+- **Active Directory:** Created organizational units, employee accounts, and security groups.
+- **File Sharing:** Configured shared folders and NTFS permissions to manage user access.
+- **Troubleshooting:** Used the environment to simulate and resolve common IT support issues involving user accounts, network connectivity, permissions, and system performance.
+
+All projects below were completed in this self-built virtual environment.
+
+
 ## Completed Help Desk Projects
 
 ### [Ticket HD-001: Active Directory Account Lockout](01-Account-Lockout/README.md)
