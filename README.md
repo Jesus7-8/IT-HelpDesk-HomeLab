@@ -68,3 +68,11 @@ Simulated a slow Windows 11 computer by increasing browser resource usage. Used 
 Installed and authorized a Windows DHCP server, configured an IPv4 scope, and verified automatic IP assignment to a Windows 11 workstation. Simulated a DHCP service outage, diagnosed a failed lease renewal and APIPA address, and restored the service to successfully renew the workstation's IP configuration.
 
 **Skills:** Windows Server DHCP, IPv4 addressing, DHCP scopes, IP leases, APIPA troubleshooting, network configuration, service management.
+
+### [Ticket HD-007: Printer Installation and Print Queue Troubleshooting](07-Printer-Troubleshooting/README.md)
+
+**Status:** Resolved — Local printer troubleshooting
+
+Installed the Windows Server Print Server role, configured a shared office printer, and created a local simulated printer on Windows 11. Investigated a failed print job, identified an incorrect printer port, corrected the configuration, and verified that the print queue was clear.
+
+**Skills:** Windows Server, Print Management, printer drivers, printer sharing, printer port configuration, print queue troubleshooting.
